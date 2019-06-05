@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:textSize="40sp"
             android:textColor="#cff"
-            android:text="Delink Designs" />
+            android:text="@string/delink_designs" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:textColor="#ccc"
             android:textSize="15sp"
             android:layout_marginTop="24dp"
-            android:text="Delink designs deals with designing cool user interface that does cool stuff try us today and see what we have for you today. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."/>
+            android:text="@string/intr_desc"/>
 
         <LinearLayout
             android:layout_marginTop="24dp"
@@ -41,7 +41,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Learn More"
+                android:text="@string/btn_learn_more"
                 android:textColor="#FFF"
                 android:textAllCaps="false"
                 android:background="@drawable/bg_btn_pink"/>
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
                 android:textColor="#FFF"
-                android:text="Join the club"
+                android:text="@string/btn_join_club"
                 android:background="@drawable/bg_btn"/>
         </LinearLayout>
     </LinearLayout>
@@ -67,7 +67,7 @@
             android:id="@+id/txt_user_name"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:hint="User Name"
+            android:hint="@string/txt_user_name"
             android:drawablePadding="8dp"
             android:drawableLeft="@drawable/ic_person_outline_black_24dp"
             android:drawableStart="@drawable/ic_person_outline_black_24dp" />
@@ -75,7 +75,7 @@
             android:id="@+id/txt_password"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/txt_password"
             android:inputType="textPassword"
             android:drawablePadding="8dp"
             android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
@@ -85,7 +85,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/btn_login"
             android:textColor="#FFF"
             android:width="140dp"
             android:background="@drawable/bg_btn_pink"

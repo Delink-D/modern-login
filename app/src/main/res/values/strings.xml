@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ModernLogin</string>
+    <string name="delink_designs">Delink Designs</string>
+    <string name="intr_desc">Delink designs deals with designing cool user interface that does cool stuff try us today and see what we have for you today. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</string>
+    <string name="btn_learn_more">Learn More</string>
+    <string name="btn_join_club">Join the club</string>
+    <string name="txt_user_name">User Name</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_login">Login</string>
 </resources>
