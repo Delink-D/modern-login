@@ -2,7 +2,7 @@
 
 A simple single modern android login activity with no functionality connected to the buttons
 
-![Instagram clone login page](https://raw.githubusercontent.com/Delink-D/modern-login/master/screen-shot/login-2.png)
+<img src="https://raw.githubusercontent.com/Delink-D/modern-login/master/screen-shot/login-2.png" width="390px" alt="Simple Login page">
 
 ## Prerequisites
 
