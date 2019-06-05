@@ -48,5 +48,38 @@
                 android:text="Join the club"/>
         </LinearLayout>
     </LinearLayout>
-
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <EditText
+            android:id="@+id/txt_user_name"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawableStart="@drawable/ic_person_outline_black_24dp" />
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#FFF"
+            android:width="140dp"
+            android:background="@drawable/bg_btn_pink"/>
+    </LinearLayout>
 </LinearLayout>
