@@ -37,15 +37,23 @@
             android:layout_gravity="center">
 
             <Button
+                android:id="@+id/btn_learn_more"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Learn More"/>
+                android:text="Learn More"
+                android:textColor="#FFF"
                 android:textAllCaps="false"
+                android:background="@drawable/bg_btn_pink"/>
             <Button
+                android:id="@+id/btn_join_club"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="Join the club"/>
+                android:textColor="#FFF"
+                android:text="Join the club"
+                android:background="@drawable/bg_btn"/>
         </LinearLayout>
     </LinearLayout>
     
