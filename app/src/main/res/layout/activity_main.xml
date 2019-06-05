@@ -82,12 +82,14 @@
             android:drawableStart="@drawable/ic_lock_outline_black_24dp"/>
         <Button
             android:id="@+id/btn_login"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
             android:textColor="#FFF"
             android:width="140dp"
-            android:background="@drawable/bg_btn_pink"/>
+            android:background="@drawable/bg_btn_pink"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:drawableEnd="@drawable/ic_send_black_24dp"/>
     </LinearLayout>
 </LinearLayout>
